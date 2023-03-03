@@ -1,0 +1,16 @@
+body{
+    background-image: linear-gradient(to right top, #f13333, #d92525, #c11818, #aa0a0a, #940007);
+}
+html,body{
+    height:100%;
+    margin: 0;
+}
+
+.logo{
+    height: 150;
+    width:150;
+}
+.login_div
+{
+	background: rgba(248, 75, 6, 0.8);float: none;border-radius: 15px;
+}

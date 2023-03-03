@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>rabbit chat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="kwitter.css">
+    </head>
+    <body>
+        <center>
+        <div class="btn btn-container">
+            <button id="logout" onclick="logout()" class="glyphicon glyphicon-log-out btn btn-danger">Salir</button>
+                <h1 class="header">rabbit chat<sup><img src="bodoque chat.png" class="logo"></sup></h1>
+                <h3 id="user_name" class="color_white"></h3>
+                    <div class="form-group input_div_room_page">
+                        <label>#Crea una sala:</label>
+                        <input placeholder="#nombre de la sala" type="text" id="room_name" class="form-control">
+                    </div>
+                    <button class="btn btn-success" onclick="addRoom()">#Crear sala:</button>
+                    <h3 class="color_white">#salas de tendencia</h3>
+                    <div id="output" style="text-align:left; margin-bottom: 70px;"></div>
+        </div>
+        </center>
+        <script src="kwitter_room.js"></script>
+    </body>
+</html>
